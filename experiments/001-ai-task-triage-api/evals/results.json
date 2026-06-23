@@ -1,0 +1,170 @@
+[
+  {
+    "input_id": 1,
+    "request": "Deployment failed twice after latest release and login is slow.",
+    "response": {
+      "category": "deployment",
+      "priority": "high",
+      "summary": "Deployment failed twice after latest release. Additionally, login performance is slow.",
+      "missing_information": [
+        "Specific error messages from deployment logs",
+        "Exact times of deployment attempts",
+        "Details about the login performance issue such as response times or errors"
+      ],
+      "human_review_required": true,
+      "confidence": 0.9
+    }
+  },
+  {
+    "input_id": 2,
+    "request": "Something is wrong with the application.",
+    "response": {
+      "category": "incident",
+      "priority": "medium",
+      "summary": "Generic report indicating something is wrong with the application without specific details.",
+      "missing_information": [
+        "specific description of the issue",
+        "steps to reproduce",
+        "error messages or logs",
+        "affected components",
+        "impact on users"
+      ],
+      "human_review_required": true,
+      "confidence": 0.5
+    }
+  },
+  {
+    "input_id": 3,
+    "request": "Can we improve dashboard loading time next quarter?",
+    "response": {
+      "category": "performance",
+      "priority": "medium",
+      "summary": "Request to improve dashboard loading time in the next quarter.",
+      "missing_information": [
+        "Specific dashboards to target",
+        "Current loading time metrics",
+        "Performance goals or targets",
+        "Resources available for improvement"
+      ],
+      "human_review_required": true,
+      "confidence": 0.9
+    }
+  },
+  {
+    "input_id": 4,
+    "request": "Users are reporting payment failures after checkout.",
+    "response": {
+      "category": "incident",
+      "priority": "high",
+      "summary": "Payment failures reported after checkout by users.",
+      "missing_information": [
+        "Specific error messages encountered",
+        "Number of users affected",
+        "Payment methods impacted",
+        "Timeframe when issue started"
+      ],
+      "human_review_required": true,
+      "confidence": 0.9
+    }
+  },
+  {
+    "input_id": 5,
+    "request": "Please add dark mode to the admin portal.",
+    "response": {
+      "category": "support",
+      "priority": "medium",
+      "summary": "Request to add dark mode feature to the admin portal.",
+      "missing_information": [
+        "Specific UI components or pages to support dark mode",
+        "Design guidelines or mockups for dark mode",
+        "Deadline or urgency for feature implementation"
+      ],
+      "human_review_required": false,
+      "confidence": 0.9
+    }
+  },
+  {
+    "input_id": 6,
+    "request": "The service is throwing 500 errors after database migration.",
+    "response": {
+      "category": "incident",
+      "priority": "high",
+      "summary": "Service is throwing 500 errors after database migration.",
+      "missing_information": [
+        "Specific service name",
+        "Exact time when errors started",
+        "Error logs or messages",
+        "Database type and migration details"
+      ],
+      "human_review_required": true,
+      "confidence": 0.9
+    }
+  },
+  {
+    "input_id": 7,
+    "request": "Need help understanding why build pipeline is slower.",
+    "response": {
+      "category": "performance",
+      "priority": "medium",
+      "summary": "Investigate reasons for slower build pipeline performance.",
+      "missing_information": [
+        "Specific build pipeline details",
+        "Recent changes to the pipeline",
+        "Metrics or logs indicating slowdown"
+      ],
+      "human_review_required": true,
+      "confidence": 0.9
+    }
+  },
+  {
+    "input_id": 8,
+    "request": "Security scan found critical vulnerabilities in dependencies.",
+    "response": {
+      "category": "security",
+      "priority": "critical",
+      "summary": "Critical vulnerabilities detected in dependencies during security scan.",
+      "missing_information": [
+        "Details of the vulnerabilities found",
+        "Affected dependencies and versions",
+        "Current mitigation steps if any"
+      ],
+      "human_review_required": true,
+      "confidence": 0.95
+    }
+  },
+  {
+    "input_id": 9,
+    "request": "It does not work.",
+    "response": {
+      "category": "support",
+      "priority": "medium",
+      "summary": "The user reports an issue with functionality not working but provides no specific details.",
+      "missing_information": [
+        "Description of the issue",
+        "Steps to reproduce",
+        "Expected behavior",
+        "Actual behavior",
+        "Environment details"
+      ],
+      "human_review_required": true,
+      "confidence": 0.4
+    }
+  },
+  {
+    "input_id": 10,
+    "request": "Memory usage increased after yesterday's deployment.",
+    "response": {
+      "category": "performance",
+      "priority": "medium",
+      "summary": "Memory usage increased after deployment performed yesterday.",
+      "missing_information": [
+        "Details of the deployment changes",
+        "Memory usage metrics and baseline comparison",
+        "System or application affected",
+        "Any error logs or warnings"
+      ],
+      "human_review_required": true,
+      "confidence": 0.85
+    }
+  }
+]
